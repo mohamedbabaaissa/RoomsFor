@@ -169,12 +169,16 @@
 }
 .dream-content {
   width: 50%;
-  background: #ffffff; /* Changed background to white */
+  background: #ffffff;
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  
+  /* Add these lines to make the inner content narrower */
+  max-width: 520px; /* Adjust this number smaller (e.g., 450px) or larger depending on preference */
+  margin-inline: auto;
 }
 
 .dream-content h2 {

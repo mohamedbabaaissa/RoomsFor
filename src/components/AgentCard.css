@@ -1,0 +1,12 @@
+.agent-card { background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; text-align: left; transition: transform .2s, box-shadow .2s; }
+.agent-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.agent-card.featured { border-color: var(--red); }
+.agent-photo { height: 190px; background: linear-gradient(135deg, #f7c6cb, #e98c8c); display: grid; place-items: center; overflow: hidden; }
+.agent-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.agent-initials { font-size: 2.6rem; font-weight: 700; color: #fff; letter-spacing: .04em; }
+.agent-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 2px; flex: 1; }
+.agent-name { font-size: 1rem; font-weight: 700; }
+.agent-role { font-size: .8rem; color: #888; }
+.agent-bio { font-size: .8rem; color: #555; margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.agent-link { margin-top: auto; padding-top: 10px; font-size: .85rem; font-weight: 600; color: var(--red); display: inline-flex; align-items: center; gap: 4px; }
+.agent-card:hover .agent-link { text-decoration: underline; }

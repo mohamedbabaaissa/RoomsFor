@@ -1,0 +1,57 @@
+.profile-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 28px;
+  align-items: start;
+}
+.avatar-edit {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.avatar-preview {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f7c6cb, #e98c8c);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.avatar-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.avatar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.avatar-actions small {
+  flex-basis: 100%;
+}
+.avatar-actions label {
+  flex-direction: row;
+  cursor: pointer;
+}
+.preview-label {
+  margin-bottom: 8px;
+}
+.agent-card.preview {
+  pointer-events: none;
+}
+@media (max-width: 960px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+  .agent-card.preview {
+    max-width: 300px;
+  }
+}

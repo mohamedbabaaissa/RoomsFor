@@ -1,0 +1,10 @@
+.auth-wrap { min-height: 70vh; display: grid; place-items: center; padding: 48px 16px; background: var(--tint); }
+.form-card.auth { width: 100%; max-width: 440px; }
+.form-card.auth.wide { max-width: 640px; }
+.form-card.auth h1 { font-size: 1.6rem; }
+.switch { font-size: .85rem; color: var(--muted); text-align: center; }
+.switch a { color: var(--red); font-weight: 600; }
+.demo-box { border-top: 1px dashed var(--line); padding-top: 14px; display: flex; flex-direction: column; gap: 8px; color: var(--muted); }
+.demo-box div { display: flex; gap: 6px; flex-wrap: wrap; }
+.demo-box button { border: 1px solid var(--line); background: var(--tint); border-radius: 999px; padding: 4px 12px; font-size: .78rem; }
+.demo-box button:hover { border-color: var(--red); color: var(--red); }

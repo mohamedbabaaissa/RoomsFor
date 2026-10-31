@@ -1,0 +1,7 @@
+.contact-grid { display: grid; grid-template-columns: 320px 1fr; gap: 32px; }
+.contact-info { display: flex; flex-direction: column; gap: 18px; }
+.contact-info div { display: flex; gap: 10px; align-items: center; }
+.contact-info .icon { color: var(--red); }
+@media (max-width: 960px) {
+  .contact-grid, .about-split, .footer-grid { grid-template-columns: 1fr; }
+}

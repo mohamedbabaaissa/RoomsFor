@@ -1,0 +1,80 @@
+[
+  {
+    "id": "p1",
+    "title": "How to pick the right neighbourhood",
+    "category": "Guides",
+    "date": "2026-10-02",
+    "excerpt": "Location matters more than square meters. Here is a short checklist: commute, noise, schools, and the things you can walk to.",
+    "image": "/img/p1.jpg",
+    "body": [
+      "Location matters more than square meters. Here is a short checklist: commute, noise, schools, and the things you can walk to.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo, vitae posuere neque. Fusce sed tristique metus proin id lorem.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    ]
+  },
+  {
+    "id": "p2",
+    "title": "5 tips for first-time renters",
+    "category": "Renting",
+    "date": "2026-09-21",
+    "excerpt": "Read the contract, photograph the flat on day one, ask about utilities, check the deposit rules, and know your notice period.",
+    "image": "/img/p5.jpg",
+    "body": [
+      "Read the contract, photograph the flat on day one, ask about utilities, check the deposit rules, and know your notice period.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo, vitae posuere neque. Fusce sed tristique metus proin id lorem.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    ]
+  },
+  {
+    "id": "p3",
+    "title": "What to check before buying a property",
+    "category": "Buying",
+    "date": "2026-09-09",
+    "excerpt": "Title deeds, service charges, building age, resale demand and a realistic budget for maintenance.",
+    "image": "/img/p3.jpg",
+    "body": [
+      "Title deeds, service charges, building age, resale demand and a realistic budget for maintenance.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo, vitae posuere neque. Fusce sed tristique metus proin id lorem.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    ]
+  },
+  {
+    "id": "p4",
+    "title": "Hotel or short-term rental?",
+    "category": "Travel",
+    "date": "2026-08-30",
+    "excerpt": "Hotels give you services and flexibility; rentals give you space and a kitchen. Pick by trip length and group size.",
+    "image": "/img/p7.jpg",
+    "body": [
+      "Hotels give you services and flexibility; rentals give you space and a kitchen. Pick by trip length and group size.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo, vitae posuere neque. Fusce sed tristique metus proin id lorem.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    ]
+  },
+  {
+    "id": "p5",
+    "title": "Staging your home for sale",
+    "category": "Selling",
+    "date": "2026-08-12",
+    "excerpt": "Declutter, light it well, fix the small things, and let the photos do the selling.",
+    "image": "/img/p2.jpg",
+    "body": [
+      "Declutter, light it well, fix the small things, and let the photos do the selling.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo, vitae posuere neque. Fusce sed tristique metus proin id lorem.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    ]
+  },
+  {
+    "id": "p6",
+    "title": "Understanding rental yields",
+    "category": "Investing",
+    "date": "2026-07-28",
+    "excerpt": "Gross yield, net yield and why they differ. A simple way to compare two investments.",
+    "image": "/img/p9.jpg",
+    "body": [
+      "Gross yield, net yield and why they differ. A simple way to compare two investments.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo, vitae posuere neque. Fusce sed tristique metus proin id lorem.",
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    ]
+  }
+]

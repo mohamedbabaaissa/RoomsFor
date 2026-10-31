@@ -1,0 +1,22 @@
+[
+  {
+    "id": "c1",
+    "name": "Dubai",
+    "image": "/img/p5.jpg"
+  },
+  {
+    "id": "c2",
+    "name": "Abu Dhabi",
+    "image": "/img/p6.jpg"
+  },
+  {
+    "id": "c3",
+    "name": "Sharjah",
+    "image": "/img/p7.jpg"
+  },
+  {
+    "id": "c4",
+    "name": "Al Ain",
+    "image": "/img/p8.jpg"
+  }
+]

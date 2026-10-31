@@ -1,0 +1,15 @@
+{
+  "mode": "manual",
+  "rates": {
+    "DZD": 1,
+    "EUR": 250,
+    "USD": 230
+  },
+  "autoRates": {
+    "DZD": 1,
+    "EUR": 155.4,
+    "USD": 134.1
+  },
+  "autoUpdatedAt": "2026-10-28",
+  "updatedAt": "2026-10-28"
+}

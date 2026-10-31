@@ -1,0 +1,63 @@
+.dash { display: grid; grid-template-columns: 250px 1fr; min-height: 100vh; background: #f4f4f7; }
+.dash-side { background: #17171c; color: #cfcfd6; padding: 22px 16px; display: flex; flex-direction: column; gap: 18px; position: sticky; top: 0; height: 100vh; }
+.dash.admin .dash-side { background: #1b1226; }
+.dash-title { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: #8d8d99; padding: 0 10px; }
+.dash-side nav { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.dash-side a, .dash-side button { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 8px; font-size: .88rem; background: none; border: 0; color: inherit; text-align: left; width: 100%; }
+.dash-side nav a:hover, .dash-side-bottom > *:hover { background: rgba(255, 255, 255, .07); color: #fff; }
+.dash-side nav a.active { background: var(--red); color: #fff; }
+.dash-side-bottom { border-top: 1px solid #2a2a32; padding-top: 12px; display: flex; flex-direction: column; gap: 2px; }
+.dash-main { min-width: 0; display: flex; flex-direction: column; }
+.dash-top { background: #fff; border-bottom: 1px solid var(--line); padding: 12px 28px; display: flex; justify-content: flex-end; align-items: center; gap: 12px; }
+.dash-top .who { display: flex; align-items: center; gap: 10px; } .dash-top small { display: block; color: var(--muted); font-size: .75rem; line-height: 1.2; }
+.dash-content { padding: 28px; }
+.scrim { display: none; }
+
+.page-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 22px; flex-wrap: wrap; }
+.page-header h1 { font-size: 1.5rem; } .page-header p { color: var(--muted); font-size: .9rem; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.stat { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: flex; gap: 14px; align-items: center; }
+.stat-icon { width: 42px; height: 42px; border-radius: 10px; background: var(--red-soft); color: var(--red); display: grid; place-items: center; }
+.stat.warn .stat-icon { background: #fdf3dc; color: var(--warn); }
+.stat-value { font-size: 1.4rem; font-weight: 700; line-height: 1.2; } .stat-label { color: var(--muted); font-size: .82rem; } .stat-hint { font-size: .75rem; color: #999; }
+.grid2 { display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; }
+.panel { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.panel h2 { font-size: 1.05rem; margin-bottom: 14px; }
+.list { list-style: none; } .list li { display: flex; justify-content: space-between; gap: 14px; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f3; } .list li:last-child { border: 0; }
+.list.msgs { padding: 6px 20px; } .list.msgs p { margin-top: 6px; }
+.actions { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.more { display: inline-block; margin-top: 14px; color: var(--red); font-weight: 600; font-size: .88rem; }
+.bars { display: flex; flex-direction: column; gap: 12px; }
+.bar-row { display: grid; grid-template-columns: 90px 1fr 28px; gap: 10px; align-items: center; font-size: .85rem; text-transform: capitalize; }
+.bar { background: var(--tint); border-radius: 999px; height: 10px; overflow: hidden; } .bar i { display: block; height: 100%; background: var(--red); border-radius: 999px; }
+.tabs { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+.tabs button { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: .84rem; font-weight: 500; display: flex; gap: 8px; align-items: center; }
+.tabs button em { font-style: normal; background: var(--tint); border-radius: 999px; padding: 0 8px; font-size: .75rem; }
+.tabs button.on { background: var(--ink); color: #fff; border-color: var(--ink); } .tabs button.on em { background: rgba(255,255,255,.2); }
+.table-wrap { background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+th { text-align: left; padding: 12px 14px; color: var(--muted); font-weight: 600; font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; background: #fafafc; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 12px 14px; border-bottom: 1px solid #f0f0f3; vertical-align: middle; } tr:last-child td { border-bottom: 0; }
+td.note { max-width: 200px; color: var(--muted); }
+.thumb { width: 64px; height: 44px; object-fit: cover; border-radius: 6px; }
+.photo-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+.photo { width: 110px; height: 80px; border-radius: 8px; overflow: hidden; position: relative; border: 1px solid var(--line); }
+.photo img { width: 100%; height: 100%; object-fit: cover; }
+.photo button { position: absolute; top: 4px; right: 4px; width: 22px; height: 22px; border-radius: 50%; border: 0; background: rgba(0,0,0,.65); color: #fff; line-height: 1; }
+.photo.add { display: grid; place-items: center; border-style: dashed; color: var(--red); font-weight: 600; cursor: pointer; flex-direction: row; }
+.booking-list { list-style: none; display: flex; flex-direction: column; gap: 14px; }
+.panel.booking { display: flex; gap: 16px; align-items: center; padding: 14px; }
+.panel.booking img { width: 120px; height: 84px; object-fit: cover; border-radius: 8px; }
+.grow { flex: 1; min-width: 0; } .booking .side { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; }
+
+@media (max-width: 960px) {
+  .dash { grid-template-columns: 1fr; }
+  .dash-side { position: fixed; z-index: 200; width: 260px; transform: translateX(-100%); transition: transform .25s; }
+  .dash-side.open { transform: none; }
+  .scrim { display: block; position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 150; }
+  .dash-top { justify-content: space-between; padding: 12px 16px; } .dash-content { padding: 18px 16px; }
+  .grid2 { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) { .panel.booking { flex-wrap: wrap; } .panel.booking img { width: 100%; height: 140px; } .booking .side { flex-direction: row; align-items: center; } }
+.avatar-img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: top; }
+.avatar.lg { overflow: hidden; }

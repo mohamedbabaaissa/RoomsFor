@@ -1,0 +1,4 @@
+.cur-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; background: #fff; }
+.cur-switch button { border: 0; background: none; padding: 4px 10px; border-radius: 999px; font-size: .74rem; font-weight: 600; color: var(--muted); }
+.cur-switch button:hover { color: var(--ink); }
+.cur-switch button.on { background: var(--red); color: #fff; }

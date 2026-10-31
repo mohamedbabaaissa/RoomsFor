@@ -1,0 +1,10 @@
+[
+  {
+    "id": "m1",
+    "name": "Hassan",
+    "email": "hassan@example.com",
+    "subject": "Partnership",
+    "message": "We own three buildings in Sharjah and would like to list them.",
+    "createdAt": "2026-10-23"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bk1",
+    "kind": "booking",
+    "listingId": "l3",
+    "userId": "u_sara",
+    "businessId": "b_palm",
+    "checkIn": "2026-11-12",
+    "checkOut": "2026-11-15",
+    "guests": 2,
+    "total": 345,
+    "status": "confirmed",
+    "message": "Late check-in please.",
+    "createdAt": "2026-10-22",
+    "currency": "USD"
+  },
+  {
+    "id": "bk2",
+    "kind": "booking",
+    "listingId": "l1",
+    "userId": "u_karim",
+    "businessId": "b_sky",
+    "checkIn": "2026-12-01",
+    "checkOut": "2027-01-01",
+    "guests": 4,
+    "total": 4100,
+    "status": "pending",
+    "message": "",
+    "createdAt": "2026-10-25",
+    "currency": "USD"
+  },
+  {
+    "id": "bk3",
+    "kind": "inquiry",
+    "listingId": "l9",
+    "userId": "u_sara",
+    "businessId": "b_sky",
+    "checkIn": null,
+    "checkOut": null,
+    "guests": null,
+    "total": null,
+    "status": "pending",
+    "message": "I would like to visit this week.",
+    "createdAt": "2026-10-26",
+    "currency": "USD"
+  },
+  {
+    "id": "bk4",
+    "kind": "booking",
+    "listingId": "l13",
+    "userId": "u_mina",
+    "businessId": "b_palm",
+    "checkIn": "2026-11-20",
+    "checkOut": "2026-11-22",
+    "guests": 2,
+    "total": 210,
+    "status": "pending",
+    "message": "",
+    "createdAt": "2026-10-26",
+    "currency": "USD"
+  }
+]

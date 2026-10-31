@@ -1,0 +1,10 @@
+.footer-right { display: flex; align-items: center; gap: 8px; }
+.site-footer { background: #17171c; color: #cfcfd6; padding: 56px 5% 20px; margin-top: 40px; }
+.footer-grid { max-width: 1180px; margin-inline: auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 32px; }
+.footer-grid h4 { color: #fff; margin-bottom: 12px; font-size: .95rem; }
+.footer-grid a { display: block; font-size: .88rem; margin-bottom: 8px; }
+.footer-grid a:hover { color: #fff; }
+.footer-grid p { margin-top: 12px; max-width: 300px; }
+.site-footer .muted { color: #9a9aa3; }
+.footer-bottom { max-width: 1180px; margin: 32px auto 0; padding-top: 16px; border-top: 1px solid #2a2a32; display: flex; justify-content: space-between; font-size: .8rem; color: #9a9aa3; }
+.footer-bottom a:hover { color: #fff; }

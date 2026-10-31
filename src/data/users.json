@@ -1,0 +1,110 @@
+[
+  {
+    "id": "u_admin",
+    "role": "admin",
+    "name": "Website Admin",
+    "email": "admin@rfr.com",
+    "password": "admin123",
+    "status": "active",
+    "createdAt": "2026-01-05"
+  },
+  {
+    "id": "b_palm",
+    "role": "business",
+    "name": "Omar Khalid",
+    "email": "hotels@palmcollection.com",
+    "password": "business123",
+    "status": "approved",
+    "businessName": "Palm Collection Hotels",
+    "avatar": "/img/agent.png",
+    "bio": "Boutique hotels in the heart of Dubai and Abu Dhabi. 10+ years of hospitality.",
+    "businessType": "hotel",
+    "phone": "+971 4 555 0101",
+    "city": "Dubai",
+    "createdAt": "2026-02-11"
+  },
+  {
+    "id": "b_sky",
+    "role": "business",
+    "name": "Leila Haddad",
+    "email": "homes@skylinerealty.com",
+    "password": "business123",
+    "status": "approved",
+    "businessName": "Skyline Realty",
+    "avatar": "",
+    "bio": "Homes for rent and sale across the Emirates.",
+    "businessType": "agency",
+    "phone": "+971 2 555 0188",
+    "city": "Abu Dhabi",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "b_gulf",
+    "role": "business",
+    "name": "Tariq Salem",
+    "email": "hello@gulfhomes.com",
+    "password": "business123",
+    "status": "approved",
+    "businessName": "Gulf Homes",
+    "avatar": "",
+    "bio": "Family homes in Al Ain.",
+    "businessType": "agency",
+    "phone": "+971 3 555 0166",
+    "city": "Al Ain",
+    "createdAt": "2026-04-02"
+  },
+  {
+    "id": "b_desert",
+    "role": "business",
+    "name": "Yusuf Rahman",
+    "email": "info@desertnest.com",
+    "password": "business123",
+    "status": "pending",
+    "businessName": "Desert Nest Stays",
+    "businessType": "agency",
+    "phone": "+971 6 555 0142",
+    "city": "Sharjah",
+    "createdAt": "2026-10-24"
+  },
+  {
+    "id": "b_marina",
+    "role": "business",
+    "name": "Nadia Farouk",
+    "email": "sales@marinaproperties.com",
+    "password": "business123",
+    "status": "pending",
+    "businessName": "Marina Properties",
+    "businessType": "agency",
+    "phone": "+971 3 555 0177",
+    "city": "Al Ain",
+    "createdAt": "2026-10-26"
+  },
+  {
+    "id": "u_sara",
+    "role": "user",
+    "name": "Sara Ahmed",
+    "email": "user@rfr.com",
+    "password": "user123",
+    "status": "active",
+    "phone": "+971 50 555 0123",
+    "createdAt": "2026-04-18"
+  },
+  {
+    "id": "u_karim",
+    "role": "user",
+    "name": "Karim Mansour",
+    "email": "karim@example.com",
+    "password": "user123",
+    "status": "active",
+    "createdAt": "2026-06-09"
+  },
+  {
+    "id": "u_mina",
+    "role": "user",
+    "name": "Mina Aziz",
+    "email": "mina@example.com",
+    "password": "user123",
+    "status": "active",
+    "createdAt": "2026-09-14"
+  }
+]

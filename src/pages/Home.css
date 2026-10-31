@@ -169,22 +169,12 @@
 }
 .dream-content {
   width: 50%;
-  background: #ffffff;
+  background: #ffffff; /* Changed background to white */
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-}
-
-/* Fix agent cards against the white background */
-.dream-content .agent-card,
-.dream-content .agents-row > div,
-.dream-content [class*="agent"] {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
 }
 
 .dream-content h2 {
@@ -262,12 +252,12 @@
   margin-inline: auto;
 }
 .agents-row {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  max-width: 960px;
-  margin: 32px auto !important;
+  display: flex;
   gap: 24px;
-  align-items: stretch !important;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 32px 0;
+  flex-wrap: wrap;
 }
 .agents-grid {
   display: grid;
@@ -276,6 +266,13 @@
 }
 .agents-grid .agent-photo {
   height: 150px;
+}
+.agents-row {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  max-width: 960px;
+  margin-inline: auto !important;
+  align-items: stretch !important;
 }
 .agent-cta {
   font-size: 0.9rem;

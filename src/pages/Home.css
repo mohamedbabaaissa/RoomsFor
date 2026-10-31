@@ -169,16 +169,29 @@
 }
 .dream-content {
   width: 50%;
-  background: #ffffff;
-  padding: 60px 50px;
+  background: #ffffff; /* White background */
+  padding: 60px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  
-  /* Add these lines to make the inner content narrower */
-  max-width: 520px; /* Adjust this number smaller (e.g., 450px) or larger depending on preference */
+}
+
+/* Constrains all content and cards inside dream-content to be narrower and centered */
+.dream-content > * {
+  max-width: 440px; 
   margin-inline: auto;
+  width: 100%;
+}
+
+/* Styles the cards so they stand out clearly against the white background */
+.dream-content .agent-card,
+.dream-content .agents-row > div,
+.dream-content [class*="agent"] {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
 }
 
 .dream-content h2 {
